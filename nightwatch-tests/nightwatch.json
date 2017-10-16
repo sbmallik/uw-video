@@ -48,12 +48,10 @@
       "globals" : {
         "propertyData" : {
           "videoPath":"/video-wrap/embed?videoid=106079790",
+          "videoNoAdPath":"/video-wrap/embed?videoid=97341968",
           "preRollAD1sec":"&adserverurl=https://ssl.gannett-cdn.com/360player/video/1-second-ad.xml&autoplay=false&disablecaption=true",
           "preRollAD1min":"&adserverurl=https://ssl.gannett-cdn.com/360player/video/1-minute-ad.xml&autoplay=false&disablecaption=true",
-          "idaremetoURL":"http://active-alliance.usatoday.com/",
-          "facebookURL":"https://www.facebook.com/activealliance/",
-          "varsityURL": "http://varsity-node-development.gannettdigital.com/",
-          "hsSportsAwardsURL":"http://sportsawards.staging.usatoday.com/desmoines/",
+          "noAdSettings":"&autoplay=false&disablecaption=true",
           "environment":"default"
         }
       },

@@ -1,22 +1,8 @@
-# Integrated Dev Env files
-.idea
 .DS_Store
-
-# Logs
-*.log*
-
-# Runtime data
-*.lock
-*.pid
-
-# Grunt intermediate storage
-.grunt
-
-# Npm cache directory
-.npm
-
-# Dependency directories
-node_modules/
-
-#Run-time test reports
-reports/
+**/reports/*
+.idea/*
+**/node_modules/*
+**/node_modules/.bin
+**/node_modules/lib
+**/eyes.log
+bin/*
