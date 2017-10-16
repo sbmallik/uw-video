@@ -26,7 +26,7 @@
   },
   "test_settings" : {
     "default" : {
-      "launch_url" : "https://dev-uw.cincinnati.com",
+      "launch_url" : "https://uw-media.usatoday.com",
       "selenium_host" : "ondemand.saucelabs.com",
       "selenium_port" : 4444,
       "username" : "${SAUCE_USERNAME}",
@@ -47,9 +47,9 @@
       },
       "globals" : {
         "propertyData" : {
-          "ampAssetURL":"${HTTP}${SITE_NAME}/amp/339639001",
-          "ampAssetPhotoCaptionText":"Aerial illustration of the continuous flow intersection at Beechmont Avenue and Five Mile Road in Anderson Township",
-          "siteTitle":"${SITE_NAME}",
+          "videoPath":"/video-wrap/embed?videoid=106079790",
+          "preRollAD1sec":"&adserverurl=https://ssl.gannett-cdn.com/360player/video/1-second-ad.xml&autoplay=false&disablecaption=true",
+          "preRollAD1min":"&adserverurl=https://ssl.gannett-cdn.com/360player/video/1-minute-ad.xml&autoplay=false&disablecaption=true",
           "idaremetoURL":"http://active-alliance.usatoday.com/",
           "facebookURL":"https://www.facebook.com/activealliance/",
           "varsityURL": "http://varsity-node-development.gannettdigital.com/",
@@ -68,8 +68,7 @@
         "platformName" : "Android",
         "platformVersion" : "7.0",
         "deviceName" : "Android GoogleAPI Emulator",
-        "browserName" : "chrome",
-        "version": "61"
+        "browserName" : "Chrome"
       },
       "globals" : {
         "propertyData" : {
